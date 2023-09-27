@@ -5,6 +5,6 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
 
 project(Squirrel LANGUAGES CXX)
 
-set(sources src/main.cpp src/io.cpp)
+set(sources src/main.cpp src/io.cpp src/game.cpp)
 
 add_executable(out ${sources})

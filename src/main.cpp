@@ -1,9 +1,9 @@
-#include "io.hpp"
+#include "game.hpp"
 
 #include <iostream>
 
 int main() {
-  IO::print_heading("Hello, world!");
+  Game game;
 
   return 0;
 }
