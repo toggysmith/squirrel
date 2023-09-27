@@ -1,7 +1,9 @@
+#include "io.hpp"
+
 #include <iostream>
 
 int main() {
-  std::cout << "Hello, world!\n";
+  IO::print_heading("Hello, world!");
 
   return 0;
 }
