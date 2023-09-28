@@ -1,7 +1,6 @@
 #include "game.hpp"
 
 #include "io.hpp"
-#include <iostream>
 
 Game::Game() {
   IO::print_heading("Welcome to Squirrel!");
