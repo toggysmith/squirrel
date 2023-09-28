@@ -16,7 +16,7 @@ void IO::print_heading(const std::string_view heading_message) {
       fg(fmt::color::green_yellow),
       "{heading_border}\n"
       "{heading_border_symbol} {heading_message} {heading_border_symbol}\n"
-      "{heading_border}\n",
+      "{heading_border}\n\n",
       fmt::arg("heading_border", heading_border),
       fmt::arg("heading_border_symbol", heading_border_symbol),
       fmt::arg("heading_message", heading_message));
