@@ -21,3 +21,14 @@ void IO::print_heading(const std::string_view heading_message) {
       fmt::arg("heading_border_symbol", heading_border_symbol),
       fmt::arg("heading_message", heading_message));
 }
+
+const std::string IO::get_text_input(const std::string_view prompt) {
+  fmt::print(fg(fmt::color::cornflower_blue),
+             "{prompt}: ", fmt::arg("prompt", prompt));
+
+  std::string input;
+
+  std::getline(std::cin, input);
+
+  return input;
+}

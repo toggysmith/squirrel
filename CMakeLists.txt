@@ -7,7 +7,7 @@ include(FetchContent)
 
 project(Squirrel LANGUAGES CXX)
 
-set(sources src/main.cpp src/io.cpp src/game.cpp)
+set(sources src/main.cpp src/io.cpp src/game.cpp src/player.cpp)
 
 add_executable(out ${sources})
 
