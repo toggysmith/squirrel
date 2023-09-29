@@ -56,6 +56,8 @@ void IO::print_heading(const std::string_view heading_message,
   }
 }
 
+void IO::print_text(const std::string_view text) { fmt::println("{}", text); }
+
 const std::string IO::get_text_input(const std::string_view prompt) {
   fmt::print(fg(fmt::color::cornflower_blue),
              "{prompt}: ", fmt::arg("prompt", prompt));

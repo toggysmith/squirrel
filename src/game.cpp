@@ -13,4 +13,7 @@ Game::Game() {
 
   IO::print_heading(fmt::format("Welcome, {}", player.get_name()),
                     IO::HeadingType::H2);
+
+  IO::print_text("Squirrel is a game about a squirrel called Tom who has woken "
+                 "up in a house and is trying to escape!");
 }
